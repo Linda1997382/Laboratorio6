@@ -1,0 +1,54 @@
+
+body{
+	background: rgb(171, 226, 245);
+}
+div{
+	font-size: x-large;
+}
+#main{
+	display: flex;
+	justify-content: center;
+}
+#foto{
+	padding-top: 10%;
+	padding-left: 10%;
+}
+.cambio{
+	width: 180px;
+	height: 320px;
+}
+li{
+	list-style-type: square;
+}
+#datos{
+	padding-top: 15%;
+	padding-left: 2%;
+}
+#hyperlinks{
+	position: absolute;
+	padding-top: 35%;
+}
+button {
+    display: absolute;
+    padding-top: 50%;
+    padding-left: 30%;
+    background-color: #dedede;
+    font-weight: semibold;
+    color: #000000;
+    font-size: 1rem;
+    padding: 1rem 1.5rem; 
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease; 
+    box-shadow: .5em .5rem 1rem #222222,
+      -.5em -.5rem 1rem #f0efef;
+  }
+  button:hover {
+    box-shadow: .5em .5rem 1rem #fff
+      , -.5em -.5rem 1rem #ffffff
+  }
+  button:active{
+    box-shadow: inset .2rem .2rem 1rem #fff
+      , inset -.2rem -.2rem 1rem #ccc
+  }
